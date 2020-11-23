@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>Today</h1>
+    <h1>The date is <% 
+            time = Time.new
+            formattedTime = time.strftime("%A, %B %d, %Y")
+        %>
+        <%= "#{formattedTime}, "%>
+    </h1>
+</body>
+</html>
